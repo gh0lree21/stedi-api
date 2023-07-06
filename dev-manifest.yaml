@@ -31,7 +31,7 @@ spec:
 # The name of the container is specified below      
         - name: dev-stedi-grant
 # The image is a prebuilt file containing the operating system        
-          image: gcr.io/cubs-consulting/stedi:latest
+          image: us-docker.pkg.dev/group3-iam-project/grant-api
           env:
             - name: REDIS_PASSWORD
               valueFrom:
