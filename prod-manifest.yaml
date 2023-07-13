@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: prod-stedi-grant
-          image: gcr.io/cubs-consulting/stedi #this image needs to refer to the NEW artifact registry
+          image: us-docker.pkg.dev/group3-iam-project/grant-api/stedi-api:latest #this image needs to refer to the NEW artifact registry
           env:
             - name: REDIS_PASSWORD
               valueFrom:
